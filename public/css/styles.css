@@ -171,9 +171,11 @@ div.burger-menu i{
      display: flex;
      flex-wrap: wrap;
      margin-bottom: 15px;
+    
 }
 .opcion-perfil{
-    justify-items: flex-start;} 
+    justify-items: flex-start;
+padding: 5px;} 
  
 .intereses-usuario{display: flex;
     flex-direction: column;
@@ -418,8 +420,8 @@ color:#3483fa}
 
 .iconos:hover {
 color:#0044AA;
-font-size: 100px;
-font-weight: bold;
+/*font-size: 100px;*/
+/*font-weight: bold;*/
 cursor: pointer;
 }
 
@@ -502,11 +504,20 @@ nav ul li
 .copy-header{
 
 text-align: right;
+max-width: 350px;
  display: flex;  
- justify-content: flex-end;  
+ justify-content: center;  
  flex-wrap: wrap; 
       }
+
+     
+ .copyright{
+    display: flex;
+    justify-content: center;
+     }     
     }
+
+
 @media (min-width: 769px){
     main section article .description{
         display: block;
@@ -542,15 +553,21 @@ text-align: right;
         nav ul li {
         margin: 10px;}
         
+        .copy-header{
+
         
-                 
-    .copy-header{
-        max-width: 350px;
+          
+         justify-content: flex-end;  
+             
+             }    
+                
+    /* .copy-header{
+       max-width:200px;
        font-size: 18px;
-       font-weight: 400;
-       text-align: right;
+      font-weight: 400;
+         text-align: right;
       display: flex;  
       justify-content: flex-end;  
       flex-wrap: wrap; 
-    }   
+    }   */
                 }
